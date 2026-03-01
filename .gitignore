@@ -13,6 +13,13 @@ frontend/venv/
 *.sqlite3
 db.sqlite3
 
+# Application-specific
+backend/data/*
+!backend/data/.gitkeep
+backend/vector_store/*
+!backend/vector_store/.gitkeep
+*.db
+
 # VSCode
 .vscode/
 
